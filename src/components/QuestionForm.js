@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 function QuestionForm(props) {
-  const url = "http://localhost:4000/questions"
+  const url = "  http://localhost:3000/questions"
   const [formData, setFormData] = useState({
     prompt: "",
     answer1: "",

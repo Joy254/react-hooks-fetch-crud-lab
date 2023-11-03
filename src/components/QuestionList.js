@@ -3,7 +3,7 @@ import QuestionItem from "./QuestionItem";
 
 function QuestionList() {
   const [questions, setQuestions] = useState([]);
-  const url = "http://localhost:4000/questions"
+  const url = "  http://localhost:3000/questions"
   useEffect(()=> {
     fetch(url)
     .then((res)=>res.json())
